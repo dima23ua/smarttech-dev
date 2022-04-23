@@ -1,0 +1,3321 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+   <div class="wrapper">
+      @include('partials/header.html')
+
+      <section class="sub-header">
+         <div class="container">
+
+            <div class="sub-header__content">
+               <!-- Меню навигация боковая панель -->
+               <aside data-da=".catalog-content,991,1" class="aside">
+                  <nav class="navigation-menu" title="Меню навигация">
+                     <ul class="navigation-menu__list">
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu.png" alt="Гироскутеры"
+                                       title="Гироскутеры">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Гироскутеры</div>
+                           </a>
+                        </li>
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu-1.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu-1.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu-1.png" alt="Электросамокаты"
+                                       title="Электросамокаты">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Электросамокаты</div>
+                           </a>
+                        </li>
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu-2.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu-2.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu-2.png" alt="Моноколеса"
+                                       title="Моноколеса">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Моноколеса</div>
+                           </a>
+                        </li>
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu-3.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu-3.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu-3.png" alt="Сигвеи и мини-сигвеи"
+                                       title="Сигвеи и мини-сигвеи">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Сигвеи и мини-сигвеи</div>
+                           </a>
+                        </li>
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu-4.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu-4.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu-4.png" alt="Электроскутеры"
+                                       title="Электроскутеры">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Электроскутеры</div>
+                           </a>
+                        </li>
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu-5.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu-5.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu-5.png" alt="Электровелосипеды"
+                                       title="Электровелосипеды">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Электровелосипеды</div>
+                           </a>
+                        </li>
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu-6.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu-6.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu-6.png" alt="Электроскейты"
+                                       title="Электроскейты">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Электроскейты</div>
+                           </a>
+                        </li>
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu-7.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu-7.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu-7.png" alt="Электромобили"
+                                       title="Электромобили">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Электромобили</div>
+                           </a>
+                        </li>
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu-8.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu-8.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu-8.png" alt="Аксессуары"
+                                       title="Аксессуары">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Аксессуары</div>
+                           </a>
+                        </li>
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu-9.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu-9.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu-9.png" alt="Умные игрушки"
+                                       title="Умные игрушки">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Умные игрушки</div>
+                           </a>
+                        </li>
+                        <li class="navigation-menu__item">
+                           <a href="#" class="navigation-menu__link">
+                              <div class="navigation-menu__link-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/menu-icons/menu-10.avif" type="image/avif">
+                                    <source srcset="img/menu-icons/menu-10.webp" type="image/webp">
+                                    <img loading="lazy" src="img/menu-icons/menu-10.png" alt="Smart Watch"
+                                       title="Smart Watch">
+                                 </picture>
+                              </div>
+                              <div class="navigation-menu__link-text">Smart Watch</div>
+                           </a>
+                        </li>
+                     </ul>
+                  </nav>
+               </aside>
+
+               <!-- Слайдер -->
+               <div class="slider swiper-content">
+                  <div class="slider__wrapper swiper-wrapper">
+                     <!--Слайд-1-->
+                     <div class="slider__slide swiper-slide">
+                        <div class="slider__content">
+                           <div class="slider__text">
+                              <div class="slider__text-content">
+                                 <div class="slider__text-title">Apple Watch Series 3</div>
+                                 <div class="slider__text-subtitle">уже в наличии</div>
+                              </div>
+                           </div>
+                           <div class="slider__img">
+                              <!-- Картинка -->
+                              <picture>
+                                 <source srcset="img/apple_watch_3-series.avif" type="image/avif">
+                                 <source srcset="img/apple_watch_3-series.webp" type="image/webp">
+                                 <img loading="lazy" src="img/apple_watch_3-series.png" alt="" title="">
+                              </picture>
+                           </div>
+                        </div>
+                     </div>
+                     <!--Слайд-2-->
+                     <div class="slider__slide swiper-slide">
+                        <div class="slider__content">
+                           <div class="slider__text">
+                              <div class="slider__text-content">
+                                 <div class="slider__text-title">Гироскутеры</div>
+                                 <div class="slider__text-subtitle">на любой возраст</div>
+                              </div>
+                           </div>
+                           <div class="slider__img">
+                              <!-- Картинка -->
+                              <picture>
+                                 <source srcset="img/giroboard.avif" type="image/avif">
+                                 <source srcset="img/giroboard.webp" type="image/webp">
+                                 <img loading="lazy" src="img/giroboard.png" alt="" title="">
+                              </picture>
+                           </div>
+                        </div>
+                     </div>
+                     <!--Слайд-3-->
+                     <div class="slider__slide swiper-slide">
+                        <div class="slider__content">
+                           <div class="slider__text">
+                              <div class="slider__text-content">
+                                 <div class="slider__text-title">Умные игрушки</div>
+                                 <div class="slider__text-subtitle">уже в наличии</div>
+                              </div>
+                           </div>
+                           <div class="slider__img">
+                              <!-- Картинка -->
+                              <picture>
+                                 <source srcset="img/apple_watch_3-series.avif" type="image/avif">
+                                 <source srcset="img/apple_watch_3-series.webp" type="image/webp">
+                                 <img loading="lazy" src="img/apple_watch_3-series.png" alt="" title="">
+                              </picture>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!--Слайд-4-->
+                     <div class="slider__slide swiper-slide">
+                        <div class="slider__content">
+                           <div class="slider__text">
+                              <div class="slider__text-content">
+                                 <div class="slider__text-title">Умные игрушки</div>
+                                 <div class="slider__text-subtitle">уже в наличии</div>
+                              </div>
+                           </div>
+                           <div class="slider__img">
+                              <!-- Картинка -->
+                              <picture>
+                                 <source srcset="img/apple_watch_3-series.avif" type="image/avif">
+                                 <source srcset="img/apple_watch_3-series.webp" type="image/webp">
+                                 <img loading="lazy" src="img/apple_watch_3-series.png" alt="" title="">
+                              </picture>
+                           </div>
+                        </div>
+                     </div>
+                     <!--Слайд-5-->
+                     <div class="slider__slide swiper-slide">
+                        <div class="slider__content">
+                           <div class="slider__text">
+                              <div class="slider__text-content">
+                                 <div class="slider__text-title">Умные игрушки</div>
+                                 <div class="slider__text-subtitle">уже в наличии</div>
+                              </div>
+                           </div>
+                           <div class="slider__img">
+                              <!-- Картинка -->
+                              <picture>
+                                 <source srcset="img/apple_watch_3-series.avif" type="image/avif">
+                                 <source srcset="img/apple_watch_3-series.webp" type="image/webp">
+                                 <img loading="lazy" src="img/apple_watch_3-series.png" alt="" title="">
+                              </picture>
+                           </div>
+                        </div>
+                     </div>
+                     <!--Слайд-6-->
+                     <div class="slider__slide swiper-slide">
+                        <div class="slider__content">
+                           <div class="slider__text">
+                              <div class="slider__text-content">
+                                 <div class="slider__text-title">"Электро-велосипеды"</div>
+                                 <div class="slider__text-subtitle">уже в наличии</div>
+                              </div>
+                           </div>
+                           <div class="slider__img">
+                              <!-- Картинка -->
+                              <picture>
+                                 <source srcset="img/el-bike.avif" type="image/avif">
+                                 <source srcset="img/el-bike.webp" type="image/webp">
+                                 <img loading="lazy" src="img/el-bike.png" alt="Электровелосипед"
+                                    title="Электровелосипед">
+                              </picture>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      <!-- Карточки товара - Хиты продаж -->
+      <section class="section">
+         <div class="container">
+
+            <div class="row">
+               <!-- Заголовок-секця -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Хиты продаж</h2>
+               </div>
+               <div class="menu-products">
+                  <a href="" class="menu-products__link">Все товары</a>
+               </div>
+            </div>
+
+            <!-- Ряд с карточками товара -->
+            <div class="row-grid">
+               <div class="grid">
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Карточки товара - Новинки -->
+      <section class="section">
+         <div class="container">
+
+            <div class="row">
+               <!-- Заголовок-секця -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Новинки</h2>
+               </div>
+               <div class="menu-products">
+                  <a href="" class="menu-products__link">Все товары</a>
+               </div>
+            </div>
+            <!-- Ряд с карточками товара -->
+            <div class="row-grid">
+               <div class="grid">
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- blocks  -->
+      <section class="section">
+         <div class="container">
+            <div class="block">
+               <div class="block__item">
+                  <div class="block__title">Скидки до 30% <br>на сигвеи</div>
+                  <!-- Картинка -->
+                  <div class="block__item-img">
+                     <picture>
+                        <source srcset="img/blocks/sigvay.avif" type="image/avif">
+                        <source srcset="img/blocks/sigvay.webp" type="image/webp">
+                        <img loading="lazy" src="img/blocks/sigvay.png" alt="Сигвей" title="Сигвей">
+                     </picture>
+                  </div>
+               </div>
+               <div class="block__item">
+                  <div class="block__title">Неделя <br>смарт часов</div>
+                  <!-- Картинка -->
+                  <div class="block__item-img">
+                     <picture>
+                        <source srcset="img/blocks/watch.avif" type="image/avif">
+                        <source srcset="img/blocks/watch.webp" type="image/webp">
+                        <img loading="lazy" src="img/blocks/watch.png" alt="Смарт часы" title="Смарт часы">
+                     </picture>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Карточки товара - Сигвеи -->
+      <section class="section">
+         <div class="container">
+
+            <div class="row">
+               <!-- Заголовок-секця -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Сигвеи</h2>
+               </div>
+               <div class="menu-products">
+                  <a href="" class="menu-products__link">Все товары</a>
+               </div>
+            </div>
+
+            <!-- Ряд с карточками товара -->
+            <div class="row-grid">
+               <div class="grid">
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Карточки товара - Моноколеса -->
+      <section class="section">
+         <div class="container">
+
+            <div class="row">
+               <!-- Заголовок-секця -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Моноколеса</h2>
+               </div>
+               <div class="menu-products">
+                  <a href="" class="menu-products__link">Все товары</a>
+               </div>
+            </div>
+
+            <div class="row-grid">
+               <div class="grid">
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- blocks  -->
+      <section class="section">
+         <div class="container">
+            <div class="block">
+               <div class="block__item">
+                  <div class="block__title">Распродажа <br>до — 50%</div>
+                  <!-- Картинка -->
+                  <div class="block__item-img">
+                     <picture>
+                        <source srcset="img/blocks/percent.avif" type="image/avif">
+                        <source srcset="img/blocks/percent.webp" type="image/webp">
+                        <img loading="lazy" src="img/blocks/percent.png" alt="Скидка" title="Скидка">
+                     </picture>
+                  </div>
+               </div>
+               <div class="block__item">
+                  <div class="block__title">Smart Balance Premium <br>по специальной цене</div>
+                  <!-- Картинка -->
+                  <div class="block__item-img">
+                     <picture>
+                        <source srcset="img/blocks/giro.avif" type="image/avif">
+                        <source srcset="img/blocks/giro.webp" type="image/webp">
+                        <img loading="lazy" src="img/blocks/giro.png" alt="Гироборд" title="Гироборд">
+                     </picture>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Карточки товара - Электровелосипеды -->
+      <div class="section">
+         <div class="container">
+
+            <div class="row">
+               <!-- Заголовок-секця -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Электровелосипеды</h2>
+               </div>
+               <div class="menu-products">
+                  <a href="" class="menu-products__link">Все товары</a>
+               </div>
+            </div>
+
+            <div class="row-grid">
+               <div class="grid">
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Карточка товара -->
+                  <div class="card">
+                     <div class="card-content">
+
+                        <div class="promo">
+                           <div class="promo__table">
+                              <div class="promo__table--new">Новинка</div>
+                           </div>
+                           <div class="promo__table">
+                              <div class="promo__table--hit">Хит продаж</div>
+                           </div>
+                        </div>
+
+                        <div class="card-content__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/cart-product/image-img.avif" type="image/avif">
+                              <source srcset="img/cart-product/image-img.webp" type="image/webp">
+                              <img loading="lazy" src="img/cart-product/image-img.png" alt="Гироскутер Smart Balanse"
+                                 title="Гироскутер Smart Balanse">
+                           </picture>
+                        </div>
+
+                        <!-- Категория -->
+                        <h5 class="card-content__category">Сигвеи</h5>
+
+                        <!-- Название товара -->
+                        <div class="card-content__title">Гироскутер Smart Balance Well 6.5
+                           Хип-Хоп(<span>Аквазащита</span>)
+                        </div>
+
+                        <!-- Про товар -->
+                        <div class="card-content__information">
+                           <div class="card-content__stars">
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                              <div class="card-content__stars-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/star-active.avif" type="image/avif">
+                                    <source srcset="img/cart-product/star-active.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/star-active.png" alt="Звездочка"
+                                       title="Звездочка">
+                                 </picture>
+                              </div>
+                           </div>
+
+
+                           <div class="card-content__coments">
+                              <div class="card-content__coments-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/cart-product/coments.avif" type="image/avif">
+                                    <source srcset="img/cart-product/coments.webp" type="image/webp">
+                                    <img loading="lazy" src="img/cart-product/coments.png" alt="Коментарии"
+                                       title="Коментарии">
+                                 </picture>
+                              </div>
+                              <div class="card-content__coments-amount">(17)</div>
+                           </div>
+                        </div>
+
+                        <!-- Цена -->
+                        <div class="card-content__sale">
+                           <div class="card-content__sale-price">
+                              <div class="card-content__sale-price-item-old">5400 ₽</div>
+                              <div class="card-content__sale-price-item">4990 ₽</div>
+                              <div class="card-content__sale-discount">
+                                 <div class="card-content__sale-discount--num">20%</div>
+                                 <div class="card-content__sale-discount--rub">— 1 000 ₽</div>
+                              </div>
+                           </div>
+                           <div class="card-content__sale-icons">
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#like"></use>
+                                 </svg>
+                              </div>
+                              <div class="card-content__sale-icons-img">
+                                 <svg class="sale-card-icon">
+                                    <use xlink:href="img/sprite.svg#compare"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Купить -->
+                        <div class="card-content__buy">
+                           <div class="card-content__buy-button">
+                              <div class="card-content__button">Купить в 1 клик</div>
+                           </div>
+                           <div class="card-content__buy-img">
+                              <svg class="card-icon">
+                                 <use xlink:href="img/sprite.svg#cart"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Новости  -->
+      <section class="section">
+         <div class="container">
+
+            <div class="row">
+               <!-- Заголовок-секця -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Новости</h2>
+               </div>
+               <div class="menu-products">
+                  <a href="" class="menu-products__link">Читать все</a>
+               </div>
+            </div>
+
+            <div class="block news">
+               <div class="block__item">
+                  <div class="block__title">Открытие нового магазина</div>
+                  <div class="block__text">Разнообразный и богатый опыт говорит нам, что консультация с широким
+                     активом требует от нас анализа анализа существующих паттернов поведения
+                  </div>
+                  <div class="block__footer">
+                     <div class="menu-products">
+                        <a href="" class="menu-products__link">Подробнее</a>
+                     </div>
+                     <div class="block__footer-text">05 июня 2021</div>
+                  </div>
+               </div>
+               <div class="block__item">
+                  <div class="block__title">Работа в праздничные дни</div>
+                  <div class="block__text">Принимая во внимание показатели успешности, социально-экономическое
+                     развитие играет определяющее значение для вывода текущих активов
+                  </div>
+                  <div class="block__footer">
+                     <div class="menu-products">
+                        <a href="" class="menu-products__link">Подробнее</a>
+                     </div>
+                     <div class="block__footer-text">05 июня 2021</div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      @include('partials/footer.html')
+
+   </div>
+
+   <!-- Панель навигации для мобильных устройств -->
+   <div class="panel">
+      <div class="panel-content">
+
+         <!-- Ноme -->
+         <div class="panel-content__item">
+            <a href="index.html" class="panel-content__link">
+               <div class="panel-content__item-img">
+                  <svg class="panel-link">
+                     <use xlink:href="img/sprite.svg#home"></use>
+                  </svg>
+               </div>
+               <div class="panel-content__link-title">
+                  Главная
+               </div>
+            </a>
+         </div>
+
+         <!-- Catalog -->
+         <div class="panel-content__item">
+            <a href="#catalog-menu" class="panel-content__link popup">
+               <div class="panel-content__item-img">
+                  <svg class="panel-link">
+                     <use xlink:href="img/sprite.svg#menu"></use>
+                  </svg>
+               </div>
+               <div class="panel-content__link-title">
+                  Каталог
+               </div>
+            </a>
+         </div>
+
+         <!-- Shopping-cart -->
+         <div class="panel-content__item">
+            <a href="" class="panel-content__link">
+               <div class="panel-content__item-img">
+                  <svg class="panel-link">
+                     <use xlink:href="img/sprite.svg#cart"></use>
+                  </svg>
+               </div>
+               <div class="panel-content__link-title">
+                  Корзина
+               </div>
+            </a>
+         </div>
+
+         <!-- Search -->
+         <div class="panel-content__item">
+            <a href="#search-menu" class="panel-content__link popup">
+               <div class="panel-content__item-img">
+                  <svg class="panel-link">
+                     <use xlink:href="img/sprite.svg#search"></use>
+                  </svg>
+               </div>
+               <div class="panel-content__link-title">
+                  Поиск
+               </div>
+            </a>
+         </div>
+
+         <!--  Еще ... -->
+         <div class="panel-content__item">
+            <a href="#more" class="panel-content__link popup">
+               <div class="panel-content__item-img">
+                  <div class="panel-content__dots">
+                     <div class="panel-content__dot"></div>
+                     <div class="panel-content__dot"></div>
+                     <div class="panel-content__dot"></div>
+                  </div>
+               </div>
+               <div class="panel-content__link-title">
+                  Ещё
+               </div>
+            </a>
+         </div>
+      </div>
+   </div>
+
+   <!-- Форма поиск-Меню <991 -->
+   <div id="search-menu" class="signin search-menu">
+      <div class="signin__body">
+         <div class="signin__content">
+            <div class="signin__header">
+               <div class="signin__header-content">
+                  <h3 class="signin__header-title">Поиск</h3>
+                  <a href="#header" class="signin__close close-popup"></a>
+               </div>
+            </div>
+            <form action="" method="post" class="search__form">
+               <div class="search__content">
+                  <button type="submit" name="button" class="search__button">
+                     <svg class="search-icon">
+                        <use xlink:href="img/sprite.svg#search"></use>
+                     </svg>
+                  </button>
+                  <input type="search" name="search" class="search__input"
+                     placeholder="Введите запрос, например «Smart balance»" />
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <!-- Каталог-Меню <991 -->
+   <div id="catalog-menu" class="signin search-menu">
+      <div class="signin__body">
+         <div class="signin__content">
+            <div class="signin__header">
+               <div class="signin__header-content">
+                  <h3 class="signin__header-title">Каталог</h3>
+                  <a href="#header" class="signin__close close-popup"></a>
+               </div>
+            </div>
+            <div class="catalog-content">
+
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Каталог-Меню Еще <991 -->
+   <div id="more" class="signin search-menu">
+      <div class="signin__body">
+         <div class="signin__content">
+            <div class="signin__header">
+               <div class="signin__header-content">
+                  <h3 class="signin__header-title">Еще</h3>
+                  <a href="#header" class="signin__close close-popup"></a>
+               </div>
+            </div>
+            <div class="more-content">
+
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>

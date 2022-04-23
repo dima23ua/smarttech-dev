@@ -1,0 +1,313 @@
+@media screen and (min-width: 1340px) {
+   .slider {
+      &__text-title  {
+         font-size: 48px;
+      }
+      &__text-subtitle {
+         font-size: 32px;
+      }
+   }
+   .section-title {
+      &__title {
+         font-size: 36px;
+      }
+   }
+   .block {
+      &__title {
+         font-size: 28px;
+      }
+   }
+}
+@media screen and (max-width: 1240px) {
+   .contact {
+      margin-right: 25px;
+         &__contact-item:nth-child(2) {
+            margin-right: 0;
+         }
+         &__contact-item:nth-child(3) {
+            display: none;
+         }
+   }
+   .search {
+      display: none;
+   }
+   .nav {
+      &__item {
+         margin-left: 25px;
+      }
+      &__link-span {
+         display: none;
+      }
+   }
+}
+@media screen and (max-width: 1140px) {
+   .card-content {
+      &__sale-icons-img {
+         width: 30px;
+         height: 30px;
+      }
+   }
+}
+@media screen and (min-width: 991px) {
+   .search-menu .signin {
+      display: none;
+         &::after {
+            display: none;
+            opacity: 0;
+         }
+         &__content {
+            display: none;
+         }
+      }
+.signin:after {
+   display: none;
+   }
+}
+@media screen and (max-width: 991px) {
+   .contact {
+      margin-right: 15px;
+      &__contact-item {
+         margin-right: 10px;
+      }
+   }
+   .icons {
+      margin-right: 15px;
+      &__item {
+         margin-left: 10px;
+      }
+   }
+   .button {
+      display: none;
+   }
+   .nav {
+      margin-left: 0;
+      width: 100%;
+
+      &__list {
+         display: block;
+      }
+      &__item {
+         padding: 15px 0;
+         margin-left: 0;
+         border-bottom: 1px solid #C8CACB;
+      }
+      &__link {
+         color: #070c11;
+      }
+   }
+   .navigation-menu {
+      &__item {
+         padding: 8px 0px;
+      }
+   }
+   .slider {
+      margin: 0;
+   }
+   .grid {
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .card-content {
+      &__sale-icons-img {
+         width: 48px;
+         height: 48px;
+      }
+   }
+   .block {
+      flex-direction: column;
+
+      &__item {
+         padding: 10px 10px 10px 20px;
+         margin: 0 auto;
+         margin-top: 20px;
+            &:first-child {
+               margin: 0 auto;
+            }
+         }
+         &__title {
+            font-size: calc(16px + (12 + 12 * 0.7) * ((100vw - 320px) / 1340));
+         }
+   }
+   .footer-content__column {
+      width: 50%;
+   }
+   .footer-bottom {
+      margin-bottom: 65px;
+
+      &__text {
+         width: 100%;
+         max-width: 350px;
+      }
+      &__social-content {
+         justify-content: flex-start;
+         margin-bottom: 0;
+         margin-bottom: 30px;
+      }
+
+      &__text-content {
+         flex-direction: column;
+      }
+      &__text {
+         margin-bottom: 10px;
+      }
+   }
+   .panel {
+      display: flex;
+      width: 100%;
+      height: 65px;
+      background-color: #2a5275;
+      z-index: 100;
+      opacity: 1;
+      visibility: visible;
+   }
+   .search-menu .catalog-content {
+      overflow: auto;
+   }
+   .search-menu .signin {
+      &__body {
+         height: 100%;
+         padding: 25px 20px 65px 20px;
+      }
+      &__content{
+         max-width: 100%;
+         height: 100%;
+         background: #EDF2F6;
+         border-radius: 8px 8px 0px 0px;
+         overflow: hidden;
+         padding: 150px 50px 20px 50px;
+         overflow-y: auto;
+      }
+      &__header {
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         max-width: inherit;
+         margin: 25px 0;
+         padding: 0px 20px;
+         overflow: hidden;
+         background: transparent;
+      }
+      &__header-content {
+         width: 100%;
+         padding: 50px;
+         display: flex;
+         justify-content: space-between;
+         background-color: #edf2f6;
+         border-radius: 8px 8px 0px 0px;
+      }
+      &__header-title {
+         font-style: normal;
+         font-weight: 700;
+         font-size: 28px;
+         line-height: 130%;
+         color: #070C11;
+      }
+      // &__catalog-content {
+      //    position: relative;
+      //    overflow-y: auto;
+      // }
+   }
+   .search-menu .search {
+
+      &__form {
+         border: 1px solid #4878a6;
+         overflow: hidden;
+         border-radius: 4px;
+         width: 100%;
+      }
+      &__content {
+         width: 100%;
+      }
+      &__input {
+         padding: 15px 20px;
+         min-width: 100%;
+         margin-left: 0;
+      }
+   }
+}
+@media screen and (max-width: 768px) {
+   .contact {
+      display: none;
+   }
+   .icons {
+      &__item:last-child {
+         display: none;
+      }
+   }
+   .slider {
+      &__text-title  {
+         font-size: calc(20px + (28 + 28 * 0.7) * ((100vw - 320px) / 1340));
+         }
+      &__text-subtitle {
+         font-size: calc(16px + (16 + 16 * 0.7) * ((100vw - 320px) / 1340));
+      }
+      &__content {
+         &:after {
+            display: none;
+         }
+      }
+      &__text-content {
+         max-width: 250px;
+      }
+   }
+   .section-title {
+      &__title {
+         font-size: calc(20px + (16 + 16 * 0.7) * ((100vw - 320px) / 1340));
+      }
+   }
+
+}
+@media screen and (max-width: 600px) {
+   .card-content {
+      &__sale {
+         flex-direction: column;
+         align-items: start;
+      }
+      &__sale-price {
+         margin-bottom: 20px;
+      }
+      &__sale-icons {
+         justify-content: flex-end;
+      }
+   }
+}
+@media screen and (max-width: 520px) {
+   .logo {
+      max-width: 130px;
+      &__text {
+         font-size: 8px;
+      }
+   }
+   .icons {
+      display: none;
+   }
+   .row {
+      justify-content: space-between;
+   }
+   .grid {
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .news .block {
+      &__item {
+         padding: 20px;
+      }
+         &__footer-text {
+            display: none;
+         }
+   }
+   .footer-content__column {
+      width: 100%;
+   }
+}
+@media screen and (max-width: 320px) {
+   .slider {
+      &__text-title  {
+         font-size: 20px;
+         }
+      &__text-subtitle {
+         font-size: 16px;
+      }
+   }
+}
+
+

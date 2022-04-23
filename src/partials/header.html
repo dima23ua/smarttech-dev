@@ -1,0 +1,209 @@
+<!-- Шапка сайта -->
+<header class="header lock-padding" id="header">
+   <div class="container">
+
+      <div class="header-top">
+         <!-- Лолотип сайта -->
+         <div class="logo">
+            <a href="index.html">
+               <picture>
+                  <source srcset="../img/logo.avif" type="image/avif">
+                  <source srcset="../img/logo.webp" type="image/webp">
+                  <img loading="lazy" src="../img/logo.png" alt="Логотип" title="Логотип">
+               </picture>
+               <div class="logo__text">Сеть магазинов в г.Хмельницкий</div>
+            </a>
+         </div>
+         <div class="info-panel">
+
+            <div class="contact">
+               <div class="contact__contact-item">
+                  <a href="tel:+380969961254">+38(096)996-12-54</a>
+               </div>
+               <div class="contact__contact-item">
+                  <a href="tel:+380673581311">+38(067)358-13-11</a>
+               </div>
+               <div class="contact__contact-item">Пн-вс: с 10:00 до 21:00</div>
+            </div>
+
+            <!-- Строка поиска -->
+            <div class="search">
+               <form action="" method="post" class="search__form">
+                  <div class="search__content">
+                     <button type="submit" name="button" class="search__button">
+                        <svg class="search-icon">
+                           <use xlink:href="img/sprite.svg#search"></use>
+                        </svg>
+                     </button>
+                     <div class="search__content-img">
+                        <svg class="search-icon" width="20px" height="20px">
+                           <use xlink:href="img/sprite.svg#search"></use>
+                        </svg>
+                     </div>
+                     <input type="search" name="search" class="search__input" placeholder="Поиск" />
+                  </div>
+               </form>
+            </div>
+
+            <!-- Panel-icons -->
+            <div class="icons">
+
+               <a href="" class="icons__item">
+                  <svg class="panel-svg">
+                     <use xlink:href="img/sprite.svg#eye"></use>
+                  </svg>
+               </a>
+
+               <a href="" class="icons__item">
+                  <svg class="panel-svg">
+                     <use xlink:href="img/sprite.svg#like"></use>
+                  </svg>
+               </a>
+
+               <a href="" class="icons__item">
+                  <svg class="panel-svg">
+                     <use xlink:href="img/sprite.svg#compare"></use>
+                  </svg>
+               </a>
+
+               <a href="" class="icons__item">
+                  <svg class="panel-svg">
+                     <use xlink:href="img/sprite.svg#cart"></use>
+                  </svg>
+               </a>
+            </div>
+
+            <!-- Button -->
+            <div class="button-login">
+               <a href="#signin" class="button-login__link popup">Войти</a>
+            </div>
+            <!-- Button - end -->
+         </div>
+      </div>
+   </div>
+
+   <div class="header-bottom index">
+      <div class="container">
+
+         <div data-da=".more-content,991,1" class="header-bottom__content">
+
+            <!-- Button -->
+            <div class="button">
+               <div class="button__icon">
+                  <svg class="panel-link">
+                     <use xlink:href="img/sprite.svg#menu"></use>
+                  </svg>
+               </div>
+               <div class="button__link">Каталог товаров</div>
+            </div>
+            <!-- Button - end -->
+            <nav class="nav" title="header-Меню">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">О компании</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Акции</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Рассрочка <span class="nav__link-span">0|0|18</span></a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Сервис и гарантия</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Опт <span class="nav__link-span">/дропшиппинг</span></a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Контакты</a>
+                  </li>
+               </ul>
+            </nav>
+
+         </div>
+      </div>
+   </div>
+</header>
+
+<!-- Форма авторизации -->
+<div id="signin" class="signin">
+   <div class="signin__body">
+      <div class="signin__content">
+         <div class="signin__header">
+            <h3 class="signin__header-title">Bxoд</h3>
+            <a href="#header" class="signin__close close-popup"></a>
+         </div>
+         <div class="signin__content-body">
+            <form action="" method="post" enctype="multipart/form-data" class="form" name="form" id="form-auth">
+               <div class="form-signin">
+                  <label for="name">Эл. почта</label>
+                  <input class="form-signin__input" type="mail" name="mail" id="mail" required />
+
+                  <label for="password">Пароль</label>
+                  <input class="form-signin__input" type="password" name="password" id="password" required />
+               </div>
+
+               <div class="form-signin__link-content">
+                  <a href="" class="form-signin__link">Забыли пароль?</a>
+               </div>
+               <label class="form-signin__checkbox">
+                  <input type="checkbox" class="form-signin__checkbox-input">
+                  <span class="form-signin__checkbox-content">Запомнить меня</span>
+               </label>
+
+               <div class="form-signin__button">
+                  <input class="form-signin__button-link" type="submit" value="Войти">
+               </div>
+
+               <div class="form-signin__link-content centered">
+                  <a href="#registration" class="form-signin__link  popup">Зарегестрироваться</a>
+               </div>
+
+            </form>
+         </div>
+      </div>
+   </div>
+</div>
+
+<!-- Форма регистраци -->
+<div id="registration" class="signin reg">
+   <div class="signin__body">
+      <div class="signin__content">
+         <div class="signin__header">
+            <h3 class="signin__header-title">Регистрация</h3>
+            <div class="signin__close close-popup"></div>
+         </div>
+         <div class="signin__content-body">
+            <form action="" method="post" enctype="multipart/form-data" class="form" name="form" id="form-reg">
+
+               <div class="form-signin">
+                  <label for="name">Имя</label>
+                  <input class="form-signin__input" type="text" name="name" id="name" required />
+
+                  <label for="name">Эл. почта</label>
+                  <input class="form-signin__input" type="email" name="email" id="email" required />
+
+                  <label for="phone">Номер телефона</label>
+                  <input class="form-signin__input" type="tel" name="phone" id="phone" required />
+
+                  <label for="password">Придумайте пароль</label>
+                  <input class="form-signin__input" type="password" name="password" id="password-reg" required />
+               </div>
+               <div class="form-signin__link-content">
+                  <div class="form-sign__text"></div>Регистрируясь, вы соглашаетесь с 
+                  <a href="" class="form-signin__link">пользовательским соглашением</a>
+               </div>
+
+               <div class="form-signin__button">
+                  <input class="form-signin__button-link" type="submit" value="Войти">
+               </div>
+
+               <div class="form-signin__link-content centered">
+                  <a href="#signin" class="form-signin__link  popup">Я уже зарегистрирован</a>
+               </div>
+
+            </form>
+         </div>
+      </div>
+   </div>
+</div>
