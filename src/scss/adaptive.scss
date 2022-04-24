@@ -59,9 +59,9 @@
             display: none;
          }
       }
-.signin:after {
-   display: none;
-   }
+// .signin:after {
+//    display: none;
+//    }
 }
 @media screen and (max-width: 991px) {
    .contact {
@@ -224,6 +224,12 @@
          margin-left: 0;
       }
    }
+   .nav-menu {
+      grid-template-columns: 1fr 1fr;
+      &__item {
+         max-width: 300px;
+      }
+   }
 }
 @media screen and (max-width: 768px) {
    .contact {
@@ -297,6 +303,9 @@
    }
    .footer-content__column {
       width: 100%;
+   }
+   .nav-menu {
+      grid-template-columns: 1fr;
    }
 }
 @media screen and (max-width: 320px) {

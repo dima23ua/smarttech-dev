@@ -6,6 +6,8 @@
 
 // подключения компонентов страницы
 @import "./components/header";
+
+
 body.lock {
    position: fixed;
 }
@@ -36,9 +38,6 @@ body.lock {
       align-items: center;
    }
 
-   &__link-img {
-
-   }
 
    &__link-text {
       margin-left: 10px;
@@ -284,9 +283,6 @@ body.lock {
          padding-bottom: 20px;
 		}
 
-		&__sale-price {
-		}
-
 		&__sale-price-item-old {
          font-style: normal;
          font-weight: 700;
@@ -377,7 +373,7 @@ body.lock {
             border: 1px solid #48a69b;
          }
          &:hover .card-content__button{
-            color: #48a69b;
+            color: #2A5275;
          }
 		}
 
@@ -402,7 +398,7 @@ body.lock {
          cursor: pointer;
          border-radius: 4px;
          &:hover {
-            background-color: #48a69b;
+            background-color: #2A5275;
          }
 		}
 }
@@ -575,13 +571,8 @@ body.lock {
    fill: #bfcbd6;
 }
 
-//========bottom menu==================
-.search-menu .signin {
-   opacity: 0;
-   visibility: hidden;
-   transition: opasity .3s ease 0s;
-}
 
 
+@import "components/about";
 @import "components/footer";
 @import "adaptive";

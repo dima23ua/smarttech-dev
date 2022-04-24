@@ -47,6 +47,10 @@ a {
    color: inherit;
    transition: all .2s ease 0s;
 }
+p{
+   margin: 0;
+   padding: 0;
+}
 
 .site-container {
   overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
