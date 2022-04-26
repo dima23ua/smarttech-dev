@@ -7,7 +7,7 @@
 
 <body class="page__body">
    <div class="wrapper">
-      
+
       @include('partials/header.html')
 
       <section class="sub-header">
@@ -3207,142 +3207,8 @@
 
    </div>
 
-   <!-- Панель навигации для мобильных устройств -->
-   <div class="panel">
-      <div class="panel-content">
+   @include('partials/panel.html')
 
-         <!-- Ноme -->
-         <div class="panel-content__item">
-            <a href="index.html" class="panel-content__link">
-               <div class="panel-content__item-img">
-                  <svg class="panel-link">
-                     <use xlink:href="img/sprite.svg#home"></use>
-                  </svg>
-               </div>
-               <div class="panel-content__link-title">
-                  Главная
-               </div>
-            </a>
-         </div>
-
-         <!-- Catalog -->
-         <div class="panel-content__item">
-            <a href="#catalog-menu" class="panel-content__link popup">
-               <div class="panel-content__item-img">
-                  <svg class="panel-link">
-                     <use xlink:href="img/sprite.svg#menu"></use>
-                  </svg>
-               </div>
-               <div class="panel-content__link-title">
-                  Каталог
-               </div>
-            </a>
-         </div>
-
-         <!-- Shopping-cart -->
-         <div class="panel-content__item">
-            <a href="" class="panel-content__link">
-               <div class="panel-content__item-img">
-                  <svg class="panel-link">
-                     <use xlink:href="img/sprite.svg#cart"></use>
-                  </svg>
-               </div>
-               <div class="panel-content__link-title">
-                  Корзина
-               </div>
-            </a>
-         </div>
-
-         <!-- Search -->
-         <div class="panel-content__item">
-            <a href="#search-menu" class="panel-content__link popup">
-               <div class="panel-content__item-img">
-                  <svg class="panel-link">
-                     <use xlink:href="img/sprite.svg#search"></use>
-                  </svg>
-               </div>
-               <div class="panel-content__link-title">
-                  Поиск
-               </div>
-            </a>
-         </div>
-
-         <!--  Еще ... -->
-         <div class="panel-content__item">
-            <a href="#more" class="panel-content__link popup">
-               <div class="panel-content__item-img">
-                  <div class="panel-content__dots">
-                     <div class="panel-content__dot"></div>
-                     <div class="panel-content__dot"></div>
-                     <div class="panel-content__dot"></div>
-                  </div>
-               </div>
-               <div class="panel-content__link-title">
-                  Ещё
-               </div>
-            </a>
-         </div>
-      </div>
-   </div>
-
-   <!-- Форма поиск-Меню <991 -->
-   <div id="search-menu" class="signin search-menu">
-      <div class="signin__body">
-         <div class="signin__content">
-            <div class="signin__header">
-               <div class="signin__header-content">
-                  <h3 class="signin__header-title">Поиск</h3>
-                  <a href="#header" class="signin__close close-popup"></a>
-               </div>
-            </div>
-            <form action="" method="post" class="search__form">
-               <div class="search__content">
-                  <button type="submit" name="button" class="search__button">
-                     <svg class="search-icon">
-                        <use xlink:href="img/sprite.svg#search"></use>
-                     </svg>
-                  </button>
-                  <input type="search" name="search" class="search__input"
-                     placeholder="Введите запрос, например «Smart balance»" />
-               </div>
-            </form>
-         </div>
-      </div>
-   </div>
-
-   <!-- Каталог-Меню <991 -->
-   <div id="catalog-menu" class="signin search-menu">
-      <div class="signin__body">
-         <div class="signin__content">
-            <div class="signin__header">
-               <div class="signin__header-content">
-                  <h3 class="signin__header-title">Каталог</h3>
-                  <a href="#header" class="signin__close close-popup"></a>
-               </div>
-            </div>
-            <div class="catalog-content">
-
-            </div>
-         </div>
-      </div>
-   </div>
-
-   <!-- Каталог-Меню Еще <991 -->
-   <div id="more" class="signin search-menu">
-      <div class="signin__body">
-         <div class="signin__content">
-            <div class="signin__header">
-               <div class="signin__header-content">
-                  <h3 class="signin__header-title">Еще</h3>
-                  <a href="#header" class="signin__close close-popup"></a>
-               </div>
-            </div>
-            <div class="more-content">
-
-            </div>
-         </div>
-      </div>
-   </div>
 </body>
 
 </html>

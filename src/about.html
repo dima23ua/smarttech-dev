@@ -1,13 +1,195 @@
 <!DOCTYPE html>
 <html lang="ru" class="page">
 
-   @include('partials/head.html', {
-      "title": "Smart Техника - О нас"
-      })
+@include('partials/head.html', {
+"title" : "Smart Техника - О нас"
+})
 
 <body class="page__body">
    <div class="wrapper">
       @include('partials/header.html')
+
+      <!-- Меню навигация боковая панель -->
+      <aside data-da=".catalog-content,991,1" class="aside">
+         <nav class="navigation-menu" title="Меню навигация">
+            <ul class="navigation-menu__list">
+
+               <!-- Гироскутеры -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu.png" alt="Гироскутеры" title="Гироскутеры">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Гироскутеры</div>
+                  </a>
+               </li>
+
+               <!-- Электросамокаты -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu-1.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu-1.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu-1.png" alt="Электросамокаты"
+                              title="Электросамокаты">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Электросамокаты</div>
+                  </a>
+               </li>
+
+               <!-- Моноколеса -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu-2.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu-2.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu-2.png" alt="Моноколеса" title="Моноколеса">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Моноколеса</div>
+                  </a>
+               </li>
+
+               <!-- Сигвеи и мини-сигвеи -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu-3.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu-3.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu-3.png" alt="Сигвеи и мини-сигвеи"
+                              title="Сигвеи и мини-сигвеи">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Сигвеи и мини-сигвеи</div>
+                  </a>
+               </li>
+
+               <!-- Электроскутеры -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu-4.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu-4.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu-4.png" alt="Электроскутеры"
+                              title="Электроскутеры">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Электроскутеры</div>
+                  </a>
+               </li>
+
+               <!-- Электровелосипеды -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu-5.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu-5.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu-5.png" alt="Электровелосипеды"
+                              title="Электровелосипеды">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Электровелосипеды</div>
+                  </a>
+               </li>
+
+               <!-- Электроскейты -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu-6.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu-6.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu-6.png" alt="Электроскейты"
+                              title="Электроскейты">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Электроскейты</div>
+                  </a>
+               </li>
+
+               <!-- Электромобили -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu-7.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu-7.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu-7.png" alt="Электромобили"
+                              title="Электромобили">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Электромобили</div>
+                  </a>
+               </li>
+
+               <!-- Аксессуары -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu-8.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu-8.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu-8.png" alt="Аксессуары" title="Аксессуары">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Аксессуары</div>
+                  </a>
+               </li>
+
+               <!-- Умные игрушки -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu-9.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu-9.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu-9.png" alt="Умные игрушки"
+                              title="Умные игрушки">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Умные игрушки</div>
+                  </a>
+               </li>
+
+               <!-- Smart Watch -->
+               <li class="navigation-menu__item">
+                  <a href="#" class="navigation-menu__link">
+                     <div class="navigation-menu__link-img">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/menu-icons/menu-10.avif" type="image/avif">
+                           <source srcset="img/menu-icons/menu-10.webp" type="image/webp">
+                           <img loading="lazy" src="img/menu-icons/menu-10.png" alt="Smart Watch" title="Smart Watch">
+                        </picture>
+                     </div>
+                     <div class="navigation-menu__link-text">Smart Watch</div>
+                  </a>
+               </li>
+
+
+            </ul>
+         </nav>
+      </aside>
 
       <section class="about-section">
          <div class="container">
@@ -17,8 +199,6 @@
             </div>
          </div>
       </section>
-
-
 
       <section class="about-section">
          <div class="container">
@@ -241,144 +421,6 @@
 
    </div>
 
-
-
-   <!-- Панель навигации для мобильных устройств -->
-   <div class="panel">
-      <div class="panel-content">
-
-         <!-- Ноme -->
-         <div class="panel-content__item">
-            <a href="index.html" class="panel-content__link">
-               <div class="panel-content__item-img">
-                  <svg class="panel-link">
-                     <use xlink:href="img/sprite.svg#home"></use>
-                  </svg>
-               </div>
-               <div class="panel-content__link-title">
-                  Главная
-               </div>
-            </a>
-         </div>
-
-         <!-- Catalog -->
-         <div class="panel-content__item">
-            <a href="#catalog-menu" class="panel-content__link popup">
-               <div class="panel-content__item-img">
-                  <svg class="panel-link">
-                     <use xlink:href="img/sprite.svg#menu"></use>
-                  </svg>
-               </div>
-               <div class="panel-content__link-title">
-                  Каталог
-               </div>
-            </a>
-         </div>
-
-         <!-- Shopping-cart -->
-         <div class="panel-content__item">
-            <a href="" class="panel-content__link">
-               <div class="panel-content__item-img">
-                  <svg class="panel-link">
-                     <use xlink:href="img/sprite.svg#cart"></use>
-                  </svg>
-               </div>
-               <div class="panel-content__link-title">
-                  Корзина
-               </div>
-            </a>
-         </div>
-
-         <!-- Search -->
-         <div class="panel-content__item">
-            <a href="#search-menu" class="panel-content__link popup">
-               <div class="panel-content__item-img">
-                  <svg class="panel-link">
-                     <use xlink:href="img/sprite.svg#search"></use>
-                  </svg>
-               </div>
-               <div class="panel-content__link-title">
-                  Поиск
-               </div>
-            </a>
-         </div>
-
-         <!--  Еще ... -->
-         <div class="panel-content__item">
-            <a href="#more" class="panel-content__link popup">
-               <div class="panel-content__item-img">
-                  <div class="panel-content__dots">
-                     <div class="panel-content__dot"></div>
-                     <div class="panel-content__dot"></div>
-                     <div class="panel-content__dot"></div>
-                  </div>
-               </div>
-               <div class="panel-content__link-title">
-                  Ещё
-               </div>
-            </a>
-         </div>
-      </div>
-   </div>
-
-   <!-- Форма поиск-Меню <991 -->
-   <div id="search-menu" class="signin search-menu">
-      <div class="signin__body">
-         <div class="signin__content">
-            <div class="signin__header">
-               <div class="signin__header-content">
-                  <h3 class="signin__header-title">Поиск</h3>
-                  <a href="#header" class="signin__close close-popup"></a>
-               </div>
-            </div>
-            <form action="" method="post" class="search__form">
-               <div class="search__content">
-                  <button type="submit" name="button" class="search__button">
-                     <svg class="search-icon">
-                        <use xlink:href="img/sprite.svg#search"></use>
-                     </svg>
-                  </button>
-                  <input type="search" name="search" class="search__input"
-                     placeholder="Введите запрос, например «Smart balance»" />
-               </div>
-            </form>
-         </div>
-      </div>
-   </div>
-
-   <!-- Каталог-Меню <991 -->
-   <div id="catalog-menu" class="signin search-menu">
-      <div class="signin__body">
-         <div class="signin__content">
-            <div class="signin__header">
-               <div class="signin__header-content">
-                  <h3 class="signin__header-title">Каталог</h3>
-                  <a href="#header" class="signin__close close-popup"></a>
-               </div>
-            </div>
-            <div class="catalog-content">
-
-            </div>
-         </div>
-      </div>
-   </div>
-
-   <!-- Каталог-Меню Еще <991 -->
-   <div id="more" class="signin search-menu">
-      <div class="signin__body">
-         <div class="signin__content">
-            <div class="signin__header">
-               <div class="signin__header-content">
-                  <h3 class="signin__header-title">Еще</h3>
-                  <a href="#header" class="signin__close close-popup"></a>
-               </div>
-            </div>
-            <div class="more-content">
-
-            </div>
-         </div>
-      </div>
-   </div>
-</body>
+   @include('partials/panel.html')
 
 </html>
