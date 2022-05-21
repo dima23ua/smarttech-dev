@@ -124,7 +124,6 @@ document.addEventListener('keydown', function (e) {
          Element.prototype.msMatchesSelector;
    }
 })();
-
 //header-slider index
 new Swiper('.slider', {
    loop: true,
@@ -143,9 +142,7 @@ new Swiper('.slider', {
       crossFade: true
    }
 });
-
 //Суперсила) Динамический адаптив - Бомба, пушка, ракета
-
 function DynamicAdapt(type) {
    this.type = type;
 }
@@ -282,6 +279,3 @@ DynamicAdapt.prototype.arraySort = function (arr) {
 };
 const da = new DynamicAdapt("max");
 da.init();
-
-
-

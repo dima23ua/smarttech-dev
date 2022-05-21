@@ -293,7 +293,11 @@
    }
    .news .block {
       &__item {
+         flex-direction: column;
          padding: 20px;
+      }
+      &__item-block{
+         margin-left: 0;
       }
          &__footer-text {
             display: none;
@@ -305,6 +309,16 @@
    .nav-menu {
       grid-template-columns: 1fr;
    }
+   .search-menu .signin__header-content {
+      padding: 50px 0;
+   }
+   .search-menu .signin__body {
+      padding: 25px 0 65px;
+   }
+   .search-menu .signin__content {
+      padding: 150px 20px 20px;
+   }
+
 }
 @media screen and (max-width: 320px) {
    .slider {

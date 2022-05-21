@@ -1,0 +1,30 @@
+.aside{
+   width: 310px;
+}
+.filter {
+
+		&__title {
+		}
+
+		&__title-text {
+		}
+
+		&__title-arrow {
+		}
+
+		&__body {
+		}
+}
+.btn {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   background-color: #2A5275;
+   border-radius: 4px;
+   cursor: pointer;
+}
+.btn-link {
+   width: 100%;
+   padding: 16px;
+   color: #fff;
+}

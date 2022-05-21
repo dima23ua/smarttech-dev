@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html', {
+"title": "Smart Техника - Каталог товаров"
+})
+
+<body class="page__body">
+   <div class="wrapper">
+
+      @include('partials/header.html')
+
+      <section class="about-section">
+         <div class="container">
+            <div class="navigation-map">
+               <a href="index.html" class="navigation-map__link">Главная</a>
+               <a href="about.html" class="navigation-map__link">Каталог</a>
+            </div>
+         </div>
+      </section>
+
+      <section>
+         <div class="container">
+
+            <!-- Боковая панель Сайдбар Фильтр -->
+            <aside class="aside">
+               <div class="filter">
+                  <!-- Заголовок -->
+                  <div class="filter__title">
+                     <div class="filter__title-text">Цена, ₽</div>
+                     <div class="filter__title-arrow"></div>
+                  </div>
+                  <!-- Фильтр -->
+                  <div class="filter__body ">
+                     <div class="section-filter">
+                        <div class="price-filter">
+                           
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Button -->
+                  <div class="btn">
+                     <div class="btn-link">Применить</div>
+                  </div>
+                  <!-- Button - end -->
+               </div>
+            </aside>
+
+         </div>
+      </section>
+
+
+      @include('partials/footer.html')
+
+   </div>
+
+   @include('partials/panel.html')
+
+</body>
+
+</html>

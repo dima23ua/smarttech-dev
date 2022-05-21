@@ -25,15 +25,12 @@
          color: #838688;
 		}
 
-		&__text {
-		}
-
-
 		&__text-item {
          margin-bottom: 10px;
 		}
 
-		&__text-link {
+		&__text-link:hover {
+         color: #2a5275;
 		}
 }
 .footer .logo {

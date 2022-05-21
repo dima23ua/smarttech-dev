@@ -77,7 +77,6 @@
          display: flex;
          max-width: 65px;
          padding: 15px 0;
-         margin-left: 15px;
          cursor: pointer;
 		}
       &__content-img {
@@ -102,7 +101,9 @@
    border-radius: 4px;
 
    .search__input {
+      width: 100%;
       max-width: 100%;
+      padding: 0 15px;
    }
    .search__form {
       width: 100%;
@@ -118,8 +119,7 @@
    display: none;
 }
 .search-icon {
-   width: 20px;
-   height: 20px;
+
    fill: #C8CACB;
 }
 .search-active .search-icon:hover {

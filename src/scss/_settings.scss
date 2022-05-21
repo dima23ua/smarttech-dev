@@ -11,8 +11,7 @@ body {
    color: #070C11;
 
 }
-
-.lock {
+body.lock{
    overflow: hidden;
 }
 
@@ -21,7 +20,9 @@ body {
 *::after {
    box-sizing: inherit;
 }
-
+.wrapper {
+   width: 100%;
+}
 .page {
    height: 100%;
    font-family: var(--font-family, sans-serif);
@@ -52,9 +53,9 @@ p{
    padding: 0;
 }
 
-.site-container {
-  overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
-}
+// .site-container {
+//   overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
+// }
 
 .is-hidden {
   display: none !important; /* stylelint-disable-line declaration-no-important */
